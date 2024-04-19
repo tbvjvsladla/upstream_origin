@@ -6,4 +6,5 @@ class Calculator:
         pass
 
     def sub(self, num):
-        pass
+        self.result = self.result - num
+        return self.result
